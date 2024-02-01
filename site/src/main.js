@@ -18,6 +18,7 @@ import ProgressSpinner from 'primevue/progressspinner';
 import InputText from 'primevue/inputtext';
 import Toolbar from 'primevue/toolbar';
 import Dropdown from 'primevue/dropdown';
+import Paginator from 'primevue/paginator';
 
 
 
@@ -34,5 +35,6 @@ app.component('ProgressSpinner',ProgressSpinner);
 app.component('InputText',InputText);
 app.component('Toolbar',Toolbar);
 app.component('Dropdown',Dropdown);
+app.component('Paginator',Paginator);
 
 app.mount('#app')
